@@ -1,0 +1,16 @@
+@charset "uft-8";
+
+/*　タイトル部分　ここから　*/
+
+div#title {
+    background: #000000
+    color #ffffff
+    width 300px;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000
+    margin 30px auto 
+}
+
+
+/* タイトル部分　ここまで  */
