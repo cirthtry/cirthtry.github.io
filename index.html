@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>neu</title>
+    </head>
+<body>
+    <!--　タイトル部分　ここから　-->
+    <div class="title">
+        <h1>neu</h1>
+    </div>
+    <!--　タイトル部分　ここまで　-->
+    <!--　メニュー部分　ここから　-->
+    <div class="menu">
+    <ul>
+        <li><a href="">About</a></li>
+        <!--　折り畳み展開1　ここから　-->
+            <li>
+            <div onclick="obj=document.getElementById('open1').style;obj.display=obj.display=(obj.display=='none')?'block':'none';">
+            <a style="cursor: pointer;">Date</a>
+            </div>
+            <!-- 折り畳み展開1　ここまで -->
+            <!-- 折り畳み部分1　ここから -->
+            <div id="open1" style="display:none;clear:both;">
+                <ul style="list-style-type:display=none;clear:both;">
+                <li>セッション各種資料</li>
+                <li><a href="">戦闘の流れ</a></li>
+                <li><a href="">技能初期値表</a></li>
+                <li>舞台</li>
+                <li><a href="">丹作市について</a></li>
+                <li><a href="">地図と施設一覧</a></li>
+                <li><a href="">年表</a></li>
+                </ul>
+            </div>          
+            </li>
+        <!-- 折り畳み部分1　ここまで -->
+        <li><a href="">Other</a></li>
+        </ul>
+    </div>
+    <!--　メニュー部分　ここまで　-->
+    <!--　コンテンツ内容　ここから　-->
+    <div class="main">
+        <p>
+        ハウスルールなどをまとめた個人サイトです。
+        </p>
+    </div>
+    <!--　コンテンツ内容　ここまで　-->
+</body>
+</html>
