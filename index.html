@@ -7,23 +7,16 @@
     </head>
 <body>
     <!--　タイトル部分　ここから　-->
-    <div id="title">
+    <div class="title">
         neu
     </div>
     <!--　タイトル部分　ここまで　-->
     <!--　メニュー部分　ここから　-->
-    <div id="menu">
-    <ul>
+    <div class="menu">
+    <ul class="menu">
         <li><a href="">About</a></li>
-        <!--　折り畳み展開1　ここから　-->
-            <li>
-            <div onclick="obj=document.getElementById('open1').style;obj.display=obj.display=(obj.display=='none')?'block':'none';">
-            <a style="cursor: pointer;">Date</a>
-            </div>
-            <!-- 折り畳み展開1　ここまで -->
-            <!-- 折り畳み部分1　ここから -->
-            <div id="open1" style="display:none;clear:both;">
-                <ul style="list-style-type:display=none;clear:both;">
+        <li><a href="">Date</a>
+            <ul class="submenu">
                 <li>セッション各種資料</li>
                 <li><a href="">戦闘の流れ</a></li>
                 <li><a href="">技能初期値表</a></li>
@@ -32,17 +25,34 @@
                 <li><a href="">地図と施設一覧</a></li>
                 <li><a href="">年表</a></li>
                 </ul>
-            </div>          
-            </li>
-        <!-- 折り畳み部分1　ここまで -->
+                </li>           
+            <!-- 折り畳み部分1　ここまで -->
+            <!--　折り畳み展開2　ここから　-->
+            <li><a href="">Character</a>
+            <!-- 折り畳み展開2　ここまで -->
+            <!-- 折り畳み部分2　ここから -->
+            <ul class="submenu">
+                <li><a href="">PL一覧</a></li>
+                <li><a href="">主要なNPC一覧</a></li>
+                <li><a href="">相関図</a></li>
+                </ul>
+                </li>         
+        <!-- 折り畳み部分2　ここまで -->
         <li><a href="">Other</a></li>
         </ul>
     </div>
     <!--　メニュー部分　ここまで　-->
     <!--　コンテンツ内容　ここから　-->
-    <div id="main">
+    <div class="main">
         <p>
-        ハウスルールなどをまとめた個人サイトです。
+        ハウスルールなどをまとめた個人サイトです。<br>
+        <br>
+            <h1>h1の例</h1><br>
+            <h2>h2の例</h2><br>
+            <h3>h3の例</h3><br>
+            <a href="">リンクの例</a>
+
+
         </p>
     </div>
     <!--　コンテンツ内容　ここまで　-->
