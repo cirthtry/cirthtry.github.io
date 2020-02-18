@@ -113,4 +113,19 @@ h2{
     border-left: solid 5px #ffa500;
 }
 
+.main p{
+    padding-bottom: 10px;
+}
+
+.main ul li{
+    list-style: square;
+    color: grey;
+}
+
+.last{
+    margin: 0 auto;
+    color: #8c8c8c;
+    font-size: 9px;
+}
+
 /* 本文部分ここまで */
